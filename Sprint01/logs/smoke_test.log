@@ -1,0 +1,19 @@
+======================================================================
+LOG MINH CHỨNG MỤC 3: KẾT QUẢ CHẠY SCRIPTS/SMOKE_TEST_GSPLAT.PY
+Lệnh thực thi: python /workspace/scripts/smoke_test_gsplat.py
+Người thực hiện: Đỗ Hoàng Khánh Nam | Cố vấn: TS. Huỳnh Võ Trung Dũng
+======================================================================
+
+============================================================
+  KIỂM TRA SMOKE TEST GSPLAT RASTERIZATION
+============================================================
+Thiết bị GPU: NVIDIA GeForce RTX 4050 Laptop GPU
+Lần gọi đầu (có thể gồm biên dịch JIT): 0.63 s
+Trung bình 20 lần gọi sau: 1.8 ms
+Alpha trung bình: 0.999
+gsplat rasterization smoke test: PASS
+
+======================================================================
+KẾT LUẬN: ĐẠT YÊU CẦU MỤC 3 (Đã in dòng 'gsplat rasterization smoke test: PASS').
+======================================================================
+
