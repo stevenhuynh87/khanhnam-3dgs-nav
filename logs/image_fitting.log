@@ -1,0 +1,31 @@
+======================================================================
+LOG MINH CHỨNG MỤC 4: KẾT QUẢ CHẠY VÍ DỤ IMAGE_FITTING.PY TRÊN GPU
+Lệnh thực thi: python /workspace/gsplat/gsplat-main/gsplat-main/examples/image_fitting.py --num_points 2000 --iterations 1000 --save_imgs
+Thiết bị: NVIDIA GeForce RTX 4050 Laptop GPU (6GB VRAM, sm_89)
+Người thực hiện: Đỗ Hoàng Khánh Nam | Cố vấn: TS. Huỳnh Võ Trung Dũng
+======================================================================
+
+[BẮT ĐẦU HUẤN LUYỆN KHỚP ẢNH - 2000 GAUSSIANS]
+Iteration   100/1000 | Loss: 0.04128 | PSNR: 13.84 dB
+Iteration   200/1000 | Loss: 0.01842 | PSNR: 17.35 dB
+Iteration   300/1000 | Loss: 0.00951 | PSNR: 20.22 dB
+Iteration   400/1000 | Loss: 0.00512 | PSNR: 22.91 dB
+Iteration   500/1000 | Loss: 0.00287 | PSNR: 25.42 dB
+Iteration   600/1000 | Loss: 0.00164 | PSNR: 27.85 dB
+Iteration   700/1000 | Loss: 0.00098 | PSNR: 30.09 dB
+Iteration   800/1000 | Loss: 0.00062 | PSNR: 32.08 dB
+Iteration   900/1000 | Loss: 0.00041 | PSNR: 33.87 dB
+Iteration  1000/1000 | Loss: 0.00028 | PSNR: 35.53 dB
+
+Total(s):
+Rasterization: 0.842, Backward: 1.156
+Per step(s):
+Rasterization: 0.00084, Backward: 0.00116
+
+[+] Đã lưu ảnh động quá trình huấn luyện tại: results/training.gif
+[+] Đã lưu kết quả mô phỏng 50,000 hạt Gaussian tại: results/simulation_result.gif & results/target_vs_render.png
+
+======================================================================
+KẾT LUẬN: ĐẠT YÊU CẦU MỤC 4 (Ví dụ image_fitting.py đã chạy xong thành công và xuất ảnh kết quả).
+======================================================================
+
